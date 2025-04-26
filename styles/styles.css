@@ -1,0 +1,92 @@
+/* Change the page to a brown color */
+body {
+  background-color: brown;
+}
+
+/* Make the header background color beige for readability */
+h1 {
+  border: 1px solid black;
+  background-color: beige;
+}
+
+/* Paragraph content put against a wheat wall for readability */
+p { 
+  border: 1px dotted black;
+  background-color: wheat;
+  font-weight: bolder;
+  font-size: 18pt;
+}
+
+/* Gif  increased in size centered and placed at the bottom */
+img {
+  margin-top: 15%;
+  width: 100%;
+  align-items: center;
+}
+
+/* Navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  color: black;
+  font-weight: bolder;
+  padding: 14px 16px;
+  background-color: grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add a wheat background color to navbar links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: wheat;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

@@ -1,0 +1,119 @@
+/* Brown background */
+body {
+    background-color: brown;
+}
+
+/* Attempts to cent image on the screen */
+.img {
+    position: relative;
+    height: 250px;
+    left: 35%;
+}
+
+/* Gives the table a beige color surrounded by a black border */
+table {
+    background-color: beige;
+    width: 100%;
+    border: 3px solid black;
+}
+
+/* Adds a border and aligns text to center within table for better readability */
+th,td {
+    border: 2px dashed black;
+    text-align: center;
+}
+
+
+/* The color of the form for user to potentiall input questions */
+#userInput {
+    display: flex;
+    background-color: beige;
+    margin-top: 5px;
+    width: 40%;
+    height: 20vh;
+    font-size: 20pt;
+}
+
+/* 
+    Specifies position of the submit button
+    :hover allows the button to become gray when user hovers over it
+*/
+.submitBtn {
+    display: flex;
+    position: absolute;
+    background-color: beige;
+    height: 5%;
+    width: 3.65%;
+    left: 37%;
+    align-items: center;
+    font-weight: bolder;
+}
+.submitBtn:hover{
+    background-color: gray;
+}
+
+/* Navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Links inside the navbar */
+.topnav a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    padding: 14px 16px;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add a wheat background color to navbar links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn{
+    background-color: wheat;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: wheat;
+    min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

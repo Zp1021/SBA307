@@ -1,0 +1,55 @@
+/* Brown background for the rest of the page */
+body {
+    margin: 15px 500px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px black;
+    background-color: brown;
+}
+
+/* Applies beige color to the background of login form */
+.credentials{
+    background-color: beige;
+    border: solid 2px black;
+    padding-bottom: 3%;
+    height: 50vh;
+}
+
+/* Applies space around the login button for better visuals */
+.Login {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Handles the color of the register link */
+.register {
+    color: purple;
+}
+.register:hover {
+    color: cornflowerblue;
+}
+
+
+/* Navbar container */
+.botnav {
+    overflow: hidden;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Links inside the navbar */
+  .botnav a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  /* Add a wheat background color to navbar links on hover */
+  .botnav a:hover, .dropdown:hover  {
+    background-color: wheat;
+  }
+  

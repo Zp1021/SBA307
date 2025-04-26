@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles\login.css">
+    <title>Login</title>
 </head>
+
 <body>
-    This is where you would login
+    <div class="credentials">
+        <h1>User Login</h1>
+        <form>
+            <Label for="userName">
+                <input placeholder="Username" type="text" name="userName" id="UserName" required />
+            </Label>
+
+            <br>
+            <label for="password">
+                <input placeholder="password" type="password" name="password" id="password" />
+            </label>
+            <br>
+            <input class="Login" name="button" type="submit" value="Login">
+            <br>
+            <a class="register" href="register.html">Register Here</a>
+        </form>
+    </div>
+    <div class="botnav">
+        <a href="index.html">Home</a>
+        <a href="faq.html">FAQ</a>
+    </div>
 </body>
+
 </html>

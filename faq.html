@@ -4,15 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="styles\faq.css">
     <title>FAQ</title>
 </head>
 
 <body>
     <header>
-        <img src="images\faq.jpg" alt="Frequently Asked questions">
+        <img class="img" src="images\faq.png" alt="Frequently Asked questions">
     </header>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Forms
+            </button>
+            <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+    </div>
     <table>
         <tr>
             <th>Questions</th>
@@ -21,31 +31,34 @@
         <tr>
             <th>Who are you?</th>
             <td>
-                <p>I am a student</p>
+                <p>I am a student.</p>
             </td>
         </tr>
         <tr>
             <th>What are you learning and why?</th>
             <td>
                 <p>I'm trying to learn concepts to help me be a software engineer</p>
-                <p>because I want to be a video game developer one day and I see this</p>
-                <p>as a stepping stone towards that goal</p>
+                <p>because I want to be a video game developer one day, and I see this</p>
+                <p>as a stepping stone towards that goal.</p>
             </td>
         </tr>
         <tr>
             <th>What does FAQ stand for?</th>
             <td>
-                <p>It stands for Frequently Asked Questions</p>
+                <p>It stands for Frequently Asked Questions.</p>
             </td>
         </tr>
         <tr>
             <th>Why does a page like this exist?</th>
             <td>
-                <p>In order to provide valuable info to you: The User</p>
+                <p>In order to provide valuable info to you: The User.</p>
             </td>
         </tr>
     </table>
-    Hi this is where you would look for general questions or ask your own
+    <form>
+        <input type="text" id="userInput" placeholder="Enter some Questions">
+        <button type="submit" class="submitBtn">submit</button>
+    </form>
 </body>
 
 </html>

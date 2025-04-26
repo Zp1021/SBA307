@@ -1,0 +1,28 @@
+/* Entire page background color is beige */
+body {
+    background-color: beige;
+}
+
+/* 
+When hovering over the sorry statement animation
+will begin slowly rotating and changing the color of
+the box with the statement inside
+*/
+.sorry {
+    display: flex;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    margin-top: 5%;
+    flex-direction: column;
+
+    transition-property: transform, background-color, color, border;
+    transition-timing-function: ease-out;
+    transition-duration: 4000ms;
+    transition-delay: 1s;
+}
+.sorry:hover {
+    transform: rotate(360deg);
+    background-color: brown;
+    color: black;
+}
